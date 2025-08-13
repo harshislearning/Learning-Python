@@ -1,5 +1,4 @@
 import pyjokes
 
 J = pyjokes.get_joke()
-print(J) 
-
+print("Today's joke :", J)
