@@ -1,0 +1,7 @@
+"""Check the type of variable assigned using input () function."""
+
+variable = input("Enter :")
+
+b = type(variable)
+
+print('Varibale of the input is : ',b)
