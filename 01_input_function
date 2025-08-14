@@ -1,0 +1,33 @@
+# In python, we can take user input directly by using input() function.
+
+a = input("Enter a number 1: ")
+
+b = input("Enter a number 2: ")
+
+print("Sum of a and b: ",a + b)
+# Oytput
+# Enter a number 1: 34
+# Enter a number 2: 34
+# Sum of a and b:  3434
+
+'''But the function returns the value as string. Hnce we have to typecate them whenever required
+to another data type'''
+
+
+a = int(input("Enter a number 1: "))
+
+b = int(input("Enter a number 2: "))
+
+print("Sum of a and b: ",a + b)
+# output
+# Enter a number 1: 45
+# Enter a number 2: 34
+# Sum of a and b:  79
+
+
+
+
+
+
+
+
