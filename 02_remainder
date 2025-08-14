@@ -1,0 +1,6 @@
+"""Write a python program to find remainder when a number is divided by z."""
+
+a = int(input("Enter value of a :"))
+z = int(input("Enter value of z :"))
+
+print("Remainder when A is divided by Z :", a%z)
