@@ -4,4 +4,10 @@
 a = int(input("Enter value of a :"))
 b = int(input("Enter value of b :"))
 c = a>b
-print(c)
+print("A is greater than b:",c)
+
+
+#Output:
+#Enter value of a :67
+#Enter value of b :6
+#A is greater than b: True
