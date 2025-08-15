@@ -1,5 +1,18 @@
 string = "hello my name is harsh"
 
+
+'''multi_line_string ="""hello
+                    hi 
+                    who 
+                    are you """
+
+print(multi_line_string)'''
+# Output
+# hello
+#                     hi 
+#                     who 
+#                     are you 
+
 """01____find a string length"""
 
 '''print(len(string))'''
