@@ -1,17 +1,25 @@
-name = "hello my name is harsh"
+string = "hello my name is harsh"
 
-"""find a string length"""
+"""01____find a string length"""
 
-'''print(len(name))'''
+'''print(len(string))'''
 #Output
 # 22
 
-""""""
+"""02___Check string- to check if a certain phase or character/word is present in string or not
+we can you 'IN' keyword"""
 
+'''print("harsh" in string)'''
+#Output 
+#True
 
-"""Looping through a string """
+'''print("ram" in string)'''
+#Output 
+#False
 
-'''for g in name:             #for loop 
+"""03___Looping through a string """
+
+'''for g in string:             #for loop 
     print(g)'''
 
 # Output 
