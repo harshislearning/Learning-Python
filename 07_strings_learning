@@ -46,12 +46,28 @@ we can you 'IN' keyword"""
 # s
 # h
 
+"""04___String slicing-- you can return a range of characters by using the slice syntax"""
+#postions starts from 0
+#0123456......
+#hello my name is harsh
 
+'''print(string[2:6])     #right side position will not be printed only before 6th will be printed
 
+print(string[:6])      #if there is nothing in left side that means 0, so 0 to 6 will print
 
+print(string[0:])      #if there is nothing on right side it will print till the end of the string
 
+#negative slicing
+#           .......-2,-1
+#hello my name is harsh
 
+print(string[-5:])     #it will print harsh
 
+print(string[-5:-1])   #right side position will not be printed only before -1 will be printed'''
 
-
-
+# Output
+# llo 
+# hello 
+# hello my name is harsh
+# harsh
+# hars
