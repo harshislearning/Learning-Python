@@ -1,0 +1,49 @@
+name = "hello my name is harsh"
+
+"""find a string length"""
+
+'''print(len(name))'''
+#Output
+# 22
+
+""""""
+
+
+"""Looping through a string """
+
+'''for g in name:             #for loop 
+    print(g)'''
+
+# Output 
+# h
+# e
+# l
+# l
+# o
+ 
+# m
+# y
+ 
+# n
+# a
+# m
+# e
+
+# i
+# s
+
+# h
+# a
+# r
+# s
+# h
+
+
+
+
+
+
+
+
+
+
