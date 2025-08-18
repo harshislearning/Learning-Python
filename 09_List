@@ -30,4 +30,15 @@ print(marks[3:5])
 #OP- [45, 76]
 
 
+'''
+*LIST METHODS*
+'''
+a= [4,5,8,7,3,9,6,1,2]
+a.sort()       #Sort in ascending order 
+print(a)       #OP- [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+a.append(10)   #adds an element at the end of the list
+print(a)       #OP- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+'''many more list methods get it from W3school'''
 
