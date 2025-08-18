@@ -40,5 +40,17 @@ print(a)       #OP- [1, 2, 3, 4, 5, 6, 7, 8, 9]
 a.append(10)   #adds an element at the end of the list
 print(a)       #OP- [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+a.reverse()    #reverse the list
+print(a)       #OP-[10, 9, 8, 7, 6, 5, 4, 3, 2, 1] if "sort()" was not used earlier output- [10, 2, 1, 6, 9, 3, 7, 8, 5, 4]
+
+a.append(4)
+print(a.count(4))  #OP- 2 #count() returns how many times that element is repeated in list
+
+'''lsit_name.insert(index,elemnt)'''  #to add an element at the spcificed position
+b = [4,55,8,7,3,9,6,1,2]
+b.insert(1,'hello')
+print(b)   #OP- [4, 'hello', 55, 8, 7, 3, 9, 6, 1, 2]
+
+
 '''many more list methods get it from W3school'''
 
