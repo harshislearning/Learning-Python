@@ -1,1 +1,33 @@
+'''
+*TUPLES are IMMUTABLE like strings  (  )  *
+Can not be changed
+
+Tuple is a Built-in data type that lets us create immutable swquence of values 
+
+'''
+'''Which one is tuple for single value store'''
+
+a = 1
+b = (1)
+c = (1,)               
+
+print(type(a))
+print(type(b))
+print(type(c))
+
+#Output
+# <class 'int'>
+# <class 'int'>
+# <class 'tuple'>
+
+'''For single value tuple should be "c = (1,)"  
+
+Like LIST, tuple can store elements of different types (int,float,str,etc...)
+
+'''
+
+tup = (1,45,3.444,"Harsh", True)
+print(tup)
+# OT-(1, 45, 3.444, 'Harsh', True)
+
 
