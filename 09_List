@@ -1,0 +1,33 @@
+'''
+A built-in data type that stores set of values.
+
+It can store elements of different types (int,float,str,etc...)
+
+index values starts from 0'''
+
+marks = [40,34,23,45,76,45.45,34.45]
+print(marks[5])    # OP- 45.45
+
+'''You can store different types of data types'''
+eg = ['harsh','patil',45.6,99]
+
+'''List are mutable so we can change the value anytime'''
+eg[1] = 'Patel'
+print(eg)
+#OP- ['harsh', 'Patel', 45.6, 99]
+eg[3] = 'Change'
+print(eg) 
+#OP- ['harsh', 'Patel', 45.6, 'Change']
+
+'''
+//LIST SLICING//     
+Similar to string slicing
+
+* Lsit_name = [Starting index  :   Ending Index]  *
+'''
+marks = [40,34,23,45,76,45.45,34.45]
+print(marks[3:5])
+#OP- [45, 76]
+
+
+
