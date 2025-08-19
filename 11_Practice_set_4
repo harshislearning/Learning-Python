@@ -1,1 +1,30 @@
+"""Q1  Write a program to store seven fruits in a list entered by the user"""
 
+fruits = []
+
+a = input("Enter the 1st friut name: ")
+b = input("Enter the 2nd friut name: ")
+c = input("Enter the 3rd friut name: ")
+d = input("Enter the 4th friut name: ")
+e = input("Enter the 5th friut name: ")
+f = input("Enter the 6th friut name: ")
+g = input("Enter the 7th friut name: ")
+
+fruits.append(a)
+fruits.append(b)
+fruits.append(c)
+fruits.append(d)
+fruits.append(e)
+fruits.append(f)
+fruits.append(g)
+print(fruits)
+
+# Output
+# Enter the 1st friut name: Mango 
+# Enter the 2nd friut name: Banana
+# Enter the 3rd friut name: Lemon
+# Enter the 4th friut name: Dragon Fruit
+# Enter the 5th friut name: Apple
+# Enter the 6th friut name: Cherry
+# Enter the 7th friut name: Orange
+# ['Mango ', 'Banana', 'Lemon', 'Dragon Fruit', 'Apple', 'Cherry', 'Orange']
