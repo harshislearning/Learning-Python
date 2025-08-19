@@ -80,3 +80,15 @@ a[2] = "harsh"
 
 #Output
 '''TypeError: 'tuple' object does not support item assignment'''
+
+
+"""Q4  Write a program to sum a list with 4 numbers."""
+
+l1 = [45,46,78,34]
+
+print("Sum of the List is :",sum(l1))
+
+#Output
+# Sum of the List is : 203
+
+
