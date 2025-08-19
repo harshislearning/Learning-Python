@@ -73,3 +73,10 @@ print(marks)
 # ['56', '67', '69', '78', '78', '98']
 
 
+"""Q3  Check that a tuple type cannot be changed in python."""
+
+a = (4.5,56,"harry")
+a[2] = "harsh"
+
+#Output
+'''TypeError: 'tuple' object does not support item assignment'''
