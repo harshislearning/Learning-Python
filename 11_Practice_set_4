@@ -28,3 +28,38 @@ print(fruits)
 # Enter the 6th friut name: Cherry
 # Enter the 7th friut name: Orange
 # ['Mango ', 'Banana', 'Lemon', 'Dragon Fruit', 'Apple', 'Cherry', 'Orange']
+
+
+
+"""Q2  Write a program to accept marks of 6 students and display them in a sorted manner."""
+
+marks = []
+
+aa = input("Enter the 1st student marks: ")
+bb = input("Enter the 2nd student marks: ")
+cc = input("Enter the 3rd student marks: ")
+dd = input("Enter the 4th student marks: ")
+ee = input("Enter the 5th student marks: ")
+ff = input("Enter the 6th student marks: ")
+
+
+marks.append(aa)
+marks.append(bb)
+marks.append(cc)
+marks.append(dd)
+marks.append(ee)
+marks.append(ff)
+
+
+marks.sort()
+print(marks)
+# Output
+# Enter the 1st student marks: 69
+# Enter the 2nd student marks: 56
+# Enter the 3rd student marks: 78
+# Enter the 4th student marks: 67
+# Enter the 5th student marks: 98
+# Enter the 6th student marks: 78
+# ['56', '67', '69', '78', '78', '98']
+
+
