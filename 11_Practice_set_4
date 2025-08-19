@@ -30,6 +30,16 @@ print(fruits)
 # ['Mango ', 'Banana', 'Lemon', 'Dragon Fruit', 'Apple', 'Cherry', 'Orange']
 
 
+"""Q3  Check that a tuple type cannot be changed in python."""
+
+a = (4.5,56,"harry")
+a[2] = "harsh"
+
+#Output
+'''TypeError: 'tuple' object does not support item assignment'''
+
+
+
 
 """Q2  Write a program to accept marks of 6 students and display them in a sorted manner."""
 
