@@ -93,3 +93,18 @@ print(set_1) #OP: {1, 2, 3, 4, 5, 6, 7, 8, 9}
 set_1.add(10) #To add the value, it will be added at the END
 print(set_1) 
 #OP: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+
+# set_1.clear() # Empty the SET
+# print(set_1) #OP:set()
+
+set_2 = {11,12,13,14,15}
+#To combine two sets we use UNION method which doesn't change the set but create a new_set as combined
+print(set_1.union(set_2))
+#OP: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+
+
+set_4 = {11,2,33,4,55,6,77,8,99,10}
+set_5 = {1,2,3,4,5,6,7,8,9,10}
+#if we need common value of two sets we use INTERSECTION method
+print(set_4.intersection(set_5))
+# {2, 4, 6, 8, 10}
