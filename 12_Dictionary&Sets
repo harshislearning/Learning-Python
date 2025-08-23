@@ -87,7 +87,7 @@ print(len(set_1)) # Returns the length of the set
 set_1.remove(99) # Remove the value given in "()" and updates the set
 print(set_1) #OP: {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
-# set_1.pop() #Removes an arbitrary element from the set and return the element removed
+# set_1.pop() #Removes an arbitrary element from the set and return the element removed(remove random value from set)
 # print(set_1) #OP: {2, 3, 4, 5, 6, 7, 8, 9}
 
 set_1.add(10) #To add the value, it will be added at the END
