@@ -1,7 +1,7 @@
 '''
 A built-in data type that stores set of values.
 
-It can store elements of different types (int,float,str,etc...)
+It can store elements of different data types (int,float,str,etc...)
 
 index values starts from 0'''
 
