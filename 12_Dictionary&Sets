@@ -1,0 +1,27 @@
+"""DICTIONARY      
+
+Dictionary are used to store values in "Key : Values" pairs.
+
+They are 
+1. Unordered
+2. Mutable(values can be changed onces assigned)
+3. Its is indexed
+4. Cannot have duplicate keys.
+
+"""
+
+a = {
+"key": "value",
+"harry": "code",
+"marks": "100",
+"list": [1, 2, 9],
+"tuple" : (3,4,6)
+}
+print(a["key"]) # Output: "value"
+print(a["list"]) # Output: [1, 2, 9]
+print(a["tuple"]) # Output: (3, 4, 6)
+
+
+"""DICTIONARY METHODS"""
+
+
