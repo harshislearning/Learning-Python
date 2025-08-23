@@ -24,4 +24,20 @@ print(a["tuple"]) # Output: (3, 4, 6)
 
 """DICTIONARY METHODS"""
 
+print(a.items()) #: Returns a list of (key,value)tuples.
+#OP: dict_items([('key', 'value'), ('harry', 'code'), ('marks', '100'), ('list', [1, 2, 9]), ('tuple', (3, 4, 6))])
+
+print(a.keys()) # Returns a list containing dictionary's keys.
+#OP: dict_keys(['key', 'harry', 'marks', 'list', 'tuple'])
+
+print(a.values()) # Returns a list containing dictionary's values.
+#OP: dict_values(['value', 'code', '100', [1, 2, 9], (3, 4, 6)])
+
+a.update({"friends":"Harsh"}) # Updates the dictionary with supplied key-value pairs.
+print(a.keys())
+#OP: dict_keys(['key', 'harry', 'marks', 'list', 'tuple', 'friends'])
+
+print(a.get("harry")) # Returns the value of the specified keys
+# OP: code
+
 
