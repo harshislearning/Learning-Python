@@ -1,11 +1,12 @@
-"""DICTIONARY      
+"""DICTIONARY   
+  {    } 
 
 Dictionary are used to store values in "Key : Values" pairs.
 
 They are 
 1. Unordered
 2. Mutable(values can be changed onces assigned)
-3. Its is indexed
+3. Its is indexed (Can access elements by index)
 4. Cannot have duplicate keys.
 
 """
@@ -39,5 +40,56 @@ print(a.keys())
 
 print(a.get("harry")) # Returns the value of the specified keys
 # OP: code
+print(a["harry"])
+# OP: code
+
+"""Differance between this two:'print(a.get("harry"))' and 'print(a["harry"])' example:
+
+print(a["harry2"])      # Returns an error becuse 'harry2' key doesn't exist
+print(a.get("harry2"))  #OP- NONE
+"""
+
+# /////////////////////////////////////////////////////////////////////////////
+
+"""  SETS         {       }
+
+Sets are the collection of the unodered items 
+
+Ecah element in the SETS must be unique & Immutable (values can not be changed onces assigned)
+
+"""
+
+set = {1,2,3,4,5,66,77,66,77}
+print(type(set)) #<class 'set'>
+print(set)
+#OP: {1, 2, 3, 4, 5, 66, 77} #set count duplicate values only onces, it must be unique
+#So when we have a use case where values shouldn't be repeted we use SETS
 
 
+"""If you are a programming beginner without much knowledge of mathematical
+operations on sets, you can simply look at sets in python as data types containing
+unique values.
+
+PROPERTIES OF SETS
+
+1. Sets are unordered => Element’s order doesn’t matter
+2. Sets are unindexed => Cannot access elements by index
+3. There is no way to change items in sets.
+4. Sets cannot contain duplicate values.
+
+"""
+
+set_1 = {1,2,3,4,5,6,7,8,99,9}
+
+print(len(set_1)) # Returns the length of the set 
+#OP: 10
+
+set_1.remove(99) # Remove the value given in "()" and updates the set
+print(set_1) #OP: {1, 2, 3, 4, 5, 6, 7, 8, 9}
+
+# set_1.pop() #Removes an arbitrary element from the set and return the element removed
+# print(set_1) #OP: {2, 3, 4, 5, 6, 7, 8, 9}
+
+set_1.add(10) #To add the value, it will be added at the END
+print(set_1) 
+#OP: {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
