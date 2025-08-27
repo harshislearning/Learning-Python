@@ -89,3 +89,39 @@ s.add(20.0)
 s.add('20')
 
 print(len(s))#OP- 2
+
+
+"""Q6  Create an empty dictionary. Allow 4 friends to enter their favorite language as
+value and use key as their names. Assume that the names are unique"""
+
+
+dic = {}
+
+friend1_key = str(input("Enter your name:"))
+friend1_value = str(input("Enter your favorite language:"))
+dic[friend1_key] = friend1_value
+
+friend2_key = str(input("Enter your name:"))
+friend2_value = str(input("Enter your favorite language:"))
+dic[friend2_key] = friend2_value
+
+friend3_key = str(input("Enter your name:"))
+friend3_value = str(input("Enter your favorite language:"))
+dic[friend3_key] = friend3_value
+
+friend4_key = str(input("Enter your name:"))
+friend4_value = str(input("Enter your favorite language:"))
+dic[friend4_key] = friend4_value
+
+print(dic)
+#OP
+# Enter your name:Harsh
+# Enter your favorite language:Marathi
+# Enter your name:Ved
+# Enter your favorite language:Python
+# Enter your name:Sandeep
+# Enter your favorite language:Java
+# Enter your name:Aman
+# Enter your favorite language:Hindi
+# {'Harsh': 'Marathi', 'Ved': 'Python', 'Sandeep': 'Java', 'Aman': 'Hindi'}
+
