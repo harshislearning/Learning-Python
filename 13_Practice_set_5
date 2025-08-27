@@ -125,3 +125,23 @@ print(dic)
 # Enter your favorite language:Hindi
 # {'Harsh': 'Marathi', 'Ved': 'Python', 'Sandeep': 'Java', 'Aman': 'Hindi'}
 
+"""Q7   If the names of 2 friends are same; what will happen to the program in problem 6?
+   Q8   If languages of two friends are same; what will happen to the program in problem 6?"""
+
+# Enter your name:Harsh
+# Enter your favorite language:Python
+# Enter your name:Harsh
+# Enter your favorite language:English
+# Enter your name:Aman
+# Enter your favorite language:Hindi
+# Enter your name:Sandeep
+# Enter your favorite language:Hindi
+# {'Harsh': 'English', 'Aman': 'Hindi', 'Sandeep': 'Hindi'}
+
+'''
+Here is the Ans of question 7 - the 'keys' in dictionary should be different, same 'keys' 
+name consider as one and the 'value' will be consider as updated.  
+
+Here is the Answer of Question 8 - 'Values' of different keys can be same.
+
+'''
