@@ -49,3 +49,19 @@ print("Unique Number:",un)
 # Enter the 1st Number: 55
 # Enter the 1st Number: 67
 # Unique Number: {34, 67, 45, 23, 55}
+
+"""Q3  Can we have a set with 18 (int) and '18' (str) as a value in it?"""
+
+#yes we can here is a explanation
+
+my_set = set()
+u = int(input("Enter the int:"))
+my_set.add(u)
+u2 =str(input("Enter a string:"))
+my_set.add(u2)
+
+print(my_set)
+#OP
+# Enter the int:18
+# Enter a string:18
+# {18, '18'}
