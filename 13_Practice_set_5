@@ -50,9 +50,9 @@ print("Unique Number:",un)
 # Enter the 1st Number: 67
 # Unique Number: {34, 67, 45, 23, 55}
 
-"""Q3  Can we have a set with 18 (int) and '18' (str) as a value in it?"""
 
-#yes we can here is a explanation
+"""Q3  Can we have a set with 18 (int) and '18' (str) as a value in it?"""
+#ANS- yes we can here is a explanation
 
 my_set = set()
 u = int(input("Enter the int:"))
@@ -66,14 +66,25 @@ print(my_set)
 # Enter a string:18
 # {18, '18'}
 
+
 """Q4  What will be the length of following set s:
 s = set()
 s.add(20)
 s.add(20.0)
 s.add('20') # length of s after these operations?"""
-#len will be 2 because 20 and 20.0 are consider as one value
+#ANS - len will be 2 because 20 and 20.0 are consider as one value
+
+
 s = set()
 s.add(20)
+
+
+"""Q5  's = {}' What is the type of 's'?"""
+#ANS - Dictionary 
+
+s= {}
+print(type(s)) 
+#OP- <class 'dict'>
 s.add(20.0)
 s.add('20')
 
