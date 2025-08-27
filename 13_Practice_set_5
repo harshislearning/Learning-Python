@@ -15,3 +15,37 @@ print(a,"in English is called :",hindi.get(a))
 #OP
 # Enter the Hindi word you want to Translate in Englisl :aaj
 # aaj in English is called today
+
+"""Q2  Write a program to input eight numbers from the user and display all the unique
+numbers (once)."""
+
+un = set()
+
+AD = int(input("Enter the 1st Number: "))
+un.add(AD)
+AD2 = int(input("Enter the 1st Number: "))
+un.add(AD2)
+AD3 = int(input("Enter the 1st Number: "))
+un.add(AD3)
+AD4 = int(input("Enter the 1st Number: "))
+un.add(AD4)
+AD5 = int(input("Enter the 1st Number: "))
+un.add(AD5)
+AD6 = int(input("Enter the 1st Number: "))
+un.add(AD6)
+AD7 = int(input("Enter the 1st Number: "))
+un.add(AD7)
+AD8 = int(input("Enter the 1st Number: "))
+un.add(AD8)
+
+print("Unique Number:",un)
+#OP
+# Enter the 1st Number: 23
+# Enter the 1st Number: 34
+# Enter the 1st Number: 23
+# Enter the 1st Number: 34
+# Enter the 1st Number: 45
+# Enter the 1st Number: 55
+# Enter the 1st Number: 55
+# Enter the 1st Number: 67
+# Unique Number: {34, 67, 45, 23, 55}
