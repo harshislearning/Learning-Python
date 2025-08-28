@@ -19,6 +19,11 @@ if a > b :
     print("A is greater")
 
 #elif statement
+"""ELIF CLAUSE
+elif in python means [else if]. An if statements can be chained together with a lot of
+these elif statements followed by an else statement.
+There can be any number of elif statements.
+"""
 if a > b :
     print("A is greater")
 
@@ -26,6 +31,7 @@ elif a < b:
     print("A is smaller")
 
 #if-elif-else statement
+"""Last else is executed only if all the conditions inside elifs fail."""
 if a > b :
     print("A is greater")
 
@@ -35,13 +41,32 @@ else:
     print("Both are equal")
 
 
+"""LOGICAL OPERATORS
+In python logical operators operate on conditional statements. For Example:
+• and – true if both operands are true else false.
+• or – true if at least one operand is true or else false.
+• not – inverts true to false & false to true.
+"""
 
 
+one = 45
+two = 65
+three = 35
 
+#AND OPERATOR
+if one > three and three < two :
+    print("True")
+"""print only if Both conditions are True"""
 
+#OR OPERATOR 
+if three > one or two > one :
+    print("TRUE")
+"""print only if At least one of the conditions is True"""
 
-
-
+#NOT OPERATOR 
+if not three > one :
+    print(True)
+""" print only if statement is false ,inverts true to false & false to true """
 
 
 
