@@ -17,6 +17,8 @@ elif num4 > num1 and num4 > num2 and num4 > num3:
 else:
     print("All number are equal")
 
+
+
 """Q2  Write a program to find out whether a student has passed or failed if it requires a
 total of 40% and at least 33% in each subject to pass. Assume 3 subjects and
 take marks as an input from the user."""
@@ -35,3 +37,25 @@ else:
     print("You are failed")
 
 
+
+"""Q3  A spam comment is defined as a text containing following keywords:
+“Make a lot of money”, “buy now”, “subscribe this”, “click this”. Write a program
+to detect these spams."""
+
+p1 = "make a lot of money"
+p2 = "buy now"
+p3 = "subscribe this"
+p4 = "click this"
+
+msg = str(input("Enter your comment: "))
+
+if (p1 in msg) or (p2 in msg) or (p3 in msg) or (p4 in msg) :
+    print("SPAM MESSAGE")
+else :
+    print("Not a Spam Message")
+    
+#Output
+# Enter your comment: hello i am harsh lets make a lot of money
+# SPAM MESSAGE
+# Enter your comment: hello i am harsh 
+# Not a Spam Message
