@@ -71,3 +71,18 @@ if (len(uname)< 10) :
     print("Username is less than 10 characters ")
 else :
     print("Username is not less than 10 characters ")
+
+
+
+
+"""Q5  Write a program which finds out whether a given name is present in a list or not."""
+
+list1 = ["Harsh","Ved","Sandeep","Aman","Madhur","Saish","Deva"]
+enter = str(input("Enter a name:"))
+
+if (enter in list1) :
+    print("Your Name is present in the List")
+else:
+    print("Your name is not present in the List ")
+
+
