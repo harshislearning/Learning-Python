@@ -115,3 +115,14 @@ elif(marks >=90 and marks <=100):
     print("Grade : A+")
 else:
     print("Enter correct Marks")
+
+
+"""Q7  Write a program to find out whether a given post is talking about “Harry” or not."""
+
+
+post = str(input("Enter your post : "))
+
+if("harry" in post)or ("Harry" in post):
+    print("Post is talking about Harry")
+else:
+    print("Post is not about Harry")
