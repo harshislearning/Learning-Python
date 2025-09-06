@@ -86,3 +86,32 @@ else:
     print("Your name is not present in the List ")
 
 
+
+
+
+"""Q6 Write a program to calculate the grade of a student from his marks from the
+following scheme:
+91 – 100 => A+
+80 – 89 => A
+70 – 79 => B
+60 – 69 =>C
+50 – 59 => D
+<49 => F"""
+
+
+marks = int(input("Enter your Marks : "))
+
+if (marks <= 49):
+    print("Grade : F")
+elif(marks >=50 and marks <=59):
+    print("Grade : D")
+elif(marks >=60 and marks <=69):
+    print("Grade : C")
+elif(marks >=70 and marks <= 79):
+    print("Grade : B")
+elif(marks >=80 and marks <=89):
+    print("Grade : A")
+elif(marks >=90 and marks <=100):
+    print("Grade : A+")
+else:
+    print("Enter correct Marks")
