@@ -10,6 +10,7 @@ print("Good Afternoon",uname.title())    #title() will capitalizes all the 1st l
 # Good Afternoon Harsh Patil
 
 
+
 '''Q2  Write a program to fill in a letter template given below with name and date.'''
 
 letter = '''
