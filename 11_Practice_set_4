@@ -10,6 +10,7 @@ e = input("Enter the 5th friut name: ")
 f = input("Enter the 6th friut name: ")
 g = input("Enter the 7th friut name: ")
 
+
 fruits.append(a)
 fruits.append(b)
 fruits.append(c)
