@@ -16,6 +16,8 @@ print(a,"in English is called :",hindi.get(a))
 # Enter the Hindi word you want to Translate in Englisl :aaj
 # aaj in English is called today
 
+
+
 """Q2  Write a program to input eight numbers from the user and display all the unique
 numbers (once)."""
 
