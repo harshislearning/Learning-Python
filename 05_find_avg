@@ -4,5 +4,4 @@
 a = int(input("Enter value of a :"))
 b = int(input("Enter value of b :"))
 
-
 print("The Average of two numbers entered:",(a+b)/2)
