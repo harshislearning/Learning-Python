@@ -76,22 +76,18 @@ s.add(20)
 s.add(20.0)
 s.add('20') # length of s after these operations?"""
 #ANS - len will be 2 because 20 and 20.0 are consider as one value
+print(len(s))#OP- 2
 
 
-s = set()
-s.add(20)
 
 
 """Q5  's = {}' What is the type of 's'?"""
 #ANS - Dictionary 
-
 s= {}
 print(type(s)) 
 #OP- <class 'dict'>
-s.add(20.0)
-s.add('20')
 
-print(len(s))#OP- 2
+
 
 
 """Q6  Create an empty dictionary. Allow 4 friends to enter their favorite language as
