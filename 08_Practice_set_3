@@ -31,7 +31,7 @@ print(new_letter)
 string = "Hello, Good evening.  what  are you up  to?"
 print(string.find("  "))               #if output is -1 then there is 0 double space in a string
 
-'''Q4  Replace the double space from problem 3 with single spaces.'''
+'''Q4  Replace the double space from problem with single spaces.'''
 
 new_string=(string.replace("  "," "))
 print(new_string)
