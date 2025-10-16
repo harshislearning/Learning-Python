@@ -28,3 +28,129 @@ while(i<6):      #or while (i<=5):
 
 
 ## In while loop there should be a flase condition or else loop wont stop 
+
+
+
+#  Write a program to print the content of a list using while loops.
+list = ["harsh", 23, 23.34,True,"ved","aman",False,56]
+i= 0
+while (i<len(list)):
+    print(list[i])
+    i = i + 1
+
+
+
+### FOR LOOP
+
+"""
+A for loop is used to iterate through a sequence like list, tuple, or string [iterables] 
+
+Syntax: 
+l = [1, 7, 8] 
+for item in l: 
+print(item) # prints 1, 7 and 8 
+
+## RANGE FUNCTION IN PYTHON 
+The range() function in python is used to generate a sequence of number. 
+We can also specify the start, stop and step-size as follows: 
+
+range(start, stop, step_size) 
+# step_size is usually not used with range() 
+
+AN EXAMPLE DEMONSTRATING RANGE () FUNCTION. 
+for i in range(0,7): # range(7) can also be used. 
+print(i) # prints 0 to 6
+
+
+
+
+"""
+
+
+
+"""
+FOR LOOP WITH ELSE 
+An optional else can be used with a for loop if the code is to be executed when the 
+loops exhausts. 
+
+Example: 
+
+l= [1,7,8] 
+for item in l: 
+print(item) 
+else: 
+print("done") # this is printed when the loop exhausts! 
+
+Output: 
+1 
+7 
+8 
+done
+"""
+
+"""
+THE BREAK STATEMENT 
+‘break’ is used to come out of the loop when encountered. It instructs the program to – 
+exit the loop now. 
+27 
+Example: 
+for i in range (0,80): 
+print(i)     
+# this will print 0,1,2 and 3 
+if i==3 
+break 
+"""
+
+
+"""
+THE CONTINUE STATEMENT 
+‘continue’ is used to stop the current iteration of the loop and continue with the next 
+one. It instructs the Program to “skip this iteration”. 
+Example: 
+for i in range(4): 
+print("printing") 
+if i == 2:   # if i is 2, the iteration is skipped  
+continue 
+print(i)
+"""
+
+
+"""
+PASS STATEMENT 
+pass is a null statement in python. 
+It instructs to “do nothing”. 
+Example: 
+l = [1,7,8] 
+for item in l: 
+pass          
+# without pass, the program will throw an error
+""
+
+
+
+# print 2 table using FOR LOOP
+for i in range (2,21,2):
+    print(i)
+
+
+#print table from user input using FOR LOOP
+num = int(input("Enter number to print table:"))
+
+for i in range (num,1000,num):
+    print(i)
+    if i==(num*10):
+        break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
