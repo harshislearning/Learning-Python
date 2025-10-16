@@ -89,7 +89,7 @@ done
 """
 
 """
-THE BREAK STATEMENT 
+THE BREAK STATEMENT (basically exit the loop when condition meets)
 ‘break’ is used to come out of the loop when encountered. It instructs the program to – 
 exit the loop now. 
 27 
@@ -103,7 +103,7 @@ break
 
 
 """
-THE CONTINUE STATEMENT 
+THE CONTINUE STATEMENT (basically skip the condition and continue the loop)
 ‘continue’ is used to stop the current iteration of the loop and continue with the next 
 one. It instructs the Program to “skip this iteration”. 
 Example: 
@@ -112,6 +112,10 @@ print("printing")
 if i == 2:   # if i is 2, the iteration is skipped  
 continue 
 print(i)
+
+OP- 
+1
+3
 """
 
 
