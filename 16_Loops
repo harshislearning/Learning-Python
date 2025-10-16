@@ -1,3 +1,6 @@
+### LOOPS in python
+
+
 """
 Sometimes we want to repeat a set of statements in our program. For instance:  Print 1 
 to 1000. 
@@ -17,3 +20,11 @@ If the loop is entered, the process of [condition check & execution] is continue
 the condition becomes False."""
 
 
+# WHILE LOOPS  to print 1 to 5
+i = 1
+while(i<6):      #while (i<=5):
+    print(i)
+    i = i +1
+
+
+## In while loop there should be a flase condition or else loop wont stop 
