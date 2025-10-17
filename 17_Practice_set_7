@@ -9,7 +9,7 @@ for i in range (num,1000,num):
         OR
 
 for i in range (1,11):
-    print(num,"x",i,"=",i*num)
+    print(num,"x",i,"=",i*num)             #  OR print(f"{num} X {i} = {num*i}")
 
 
 
