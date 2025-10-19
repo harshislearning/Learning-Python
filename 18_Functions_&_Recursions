@@ -31,6 +31,8 @@ def func1():
 func1()
 
 
+
+
 """
 FUNCTIONS WITH ARGUMENTS 
 
@@ -45,3 +47,34 @@ def greet(name):
     print(f"Hello {name} Have a Good Day.")
 
 greet(na)
+
+
+
+
+
+
+"""
+DEFAULT PARAMETER VALUE 
+We can have a value as default as default argument in a function. 
+If we specify name = “stranger” in the line containing def, this value is used when no 
+argument is passed. 
+
+Example: 
+def greet(name = "stranger"):               #default parameter value should be return in "" 
+    print(f"Hello {name} Have a Good Day.")  
+greet() # name will be "stranger" in function body (default) 
+greet("harry") # name will be "harry" in function body (passed) 
+"""
+
+n = input("Enter Your name :")
+na = n.capitalize()
+def greet(name = "Sir/Madam"):  
+    print(f"Hello {name} Have a Good Day.")
+    
+greet(na)
+greet()      
+""" Output
+Enter Your name :harsh
+Hello Harsh Have a Good Day.
+Hello Sir/Madam Have a Good Day.
+"""
