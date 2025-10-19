@@ -29,3 +29,19 @@ def func1():
     print(f"Hello {name}")
 
 func1()
+
+
+"""
+FUNCTIONS WITH ARGUMENTS 
+
+
+A function can accept some value it can work with. We can put these values in the 
+parentheses. 
+A function can also return value as shown below: 
+"""
+n = input("Enter Your name :")
+na = n.capitalize()
+def greet(name):  
+    print(f"Hello {name} Have a Good Day.")
+
+greet(na)
