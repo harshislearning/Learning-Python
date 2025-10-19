@@ -22,3 +22,10 @@ call.
 
 """
 
+#example
+def func1():
+    n = input("Enter Your name :")
+    name= n.capitalize()
+    print(f"Hello {name}")
+
+func1()
