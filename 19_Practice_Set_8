@@ -47,7 +47,14 @@ great(a,b,c)
 **               
 *
 
+n = int(input("Enter n : "))
 
+def start(n):
+    for i in range (n,0,-1):
+        print("*" * i, end="")
+        print("")
+
+start(n)
 
 
 
