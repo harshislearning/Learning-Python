@@ -78,3 +78,27 @@ Enter Your name :harsh
 Hello Harsh Have a Good Day.
 Hello Sir/Madam Have a Good Day.
 """
+
+
+
+"""
+##RECURSION 
+
+Recursion is a function which calls itself. 
+It is used to directly use a mathematical formula as function.  
+
+Example: 
+
+factorial(n) = n x factorial (n-1) 
+
+This function can be defined as follows: 
+"""
+
+def fac(n):
+    if (n==1 or n==0):
+        return 1
+    return n * fac(n-1)
+
+
+n = int(input("Enter Your name :"))
+print(f"The factorial of {n} is : {fac(n)}")
