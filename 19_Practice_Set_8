@@ -94,6 +94,17 @@ convo(n)
 
 # Q7  Write a python function to remove a given word from a list ad strip it at the same time.
 
+list = ["Harsh", "Rohan","Sid","Raj","an"]
+
+def rem(n,word):
+    new = []
+    for item in n:
+        if not (item == word):
+            new.append(item.strip(word))
+    return new
+
+print(rem(list, "an"))
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
