@@ -37,6 +37,14 @@ great(a,b,c)
 
 # Q4  Write a recursive function to calculate the sum of first n natural numbers. 
 
+def factorial(n):
+    if n==0 or n==1:
+        return 1
+    else:
+        return n+factorial(n-1)
+
+no = int(input("Enter your name: "))
+print(f"Sum of given n number is {factorial(10)}")
 
 /////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////
